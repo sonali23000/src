@@ -1,194 +1,57 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Restaurant</title>
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        @font-face {
-            font-family: 'butter pineapple';
-            src: URL(./fonts/butter-pineapple.regular.otf);
-        }
-        body {
-            background-image: url("./img/lettuce.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .container {
-            width: 1400px;
-            margin: auto;
-        }
-        nav {
-            background-color: #4E7047;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 400;
-            color: white;
-        }
-        h2 {
-            font-family: 'butter pineapple', sans-serif;
-            font-size: xx-large;
-        }
-        ul {
-            list-style-type: none;
-            float: right;
-            padding-top: 10px;
-            padding-right: 20px;
-        }
-        li {
-            float: left;
-            padding: 15px;
-            font-size: 20px;
-        }
-        .logo {
-            font-size: 50px;
-        }
-       /* styles for the header */
-header {
-    background-color: #4E7047;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-
-/*styles for the navigation menu */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-}
-
-li {
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: white;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
-}
-
-footer {
-  padding-left: 70px;
-  padding-top: 10px;
-  background-color: #4E7047;
-  color: white;
-  font-family: 'EB Garamond', serif;
-  font-weight:400;
-}
-.social-icons {
-  list-style: none;
-  padding: 0;
-  margin: 15px;
-  float: left;
-  
-}
-
-.social-icons li {
-  display: inline-block;
-  margin-right: 20px; /* Adjust the spacing between icons */
-}
-.submit-booking{
-  margin: 20px 0 20px 40%;
-}
-
-.booking-title{
-  margin-top: 20px;
-  color: light-grey;
-  font-size: 40px;
-}
-
-.booking-img{
-  margin-top: 10%;
-}
-
-.about-title{
-  padding-left: 20px;
-}
-
-.about-text{
-  padding-left: 20px;
-}
-
-.ctmenu{
-  border-bottom: 1px solid red;
-}
-.line-4 hr {
-  height: 2px;
-  border: 0;
-  background: #638889;
-  width: 730px;
-  position: absolute;
-	left: 25%;
-}
-
-.sidebar li a {
-     display: block;
-    }
-
-    .sidebar ul {
-     list-style-type: none;
-     margin:0;
-     padding: 0;
-     width:200px;
-    }
-    </style>
-<
-</head>
-<body>
-    <header>
-    
-        <!-- NAV BAR -->
-<nav class="navbar row">
-    <h2 class="col-md-4 logo">Eastern Kitchen</h2>
-    <div class="col-md-8">
-        <ul>
-            <li>
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="nav-link" href="menu.html">Menu</a>
-            </li>
-            <li>
-                <a class="nav-link" href="booking.html">Booking</a>
-            </li>
-            <li>
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-</nav>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,600&family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+        
+            <title>This is PHP page</title>
+    </head>
+    <body>
 
 
 
-   
+        <div class="container mx-auto my-4">
+
+            <!-- NAV BAR -->
+            <nav class="navbar row">
+                <h2 class="col-md-4 logo">Web Programming</h2>
+                <div class="col-md-8">
+
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="exe1.php">Exe1</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="exe2.php">Exe2</
+                        </li>
+                        <li>
+                            <a class="nav-link" href="exe3.php">Exe3</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="exe4.php">Exe4</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="Readme.md">Exe5</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="exe7.php">Exe7</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
 
 
-
-
-
-
-
-
-
-
-
-
-<!-- END OF NAV BAR -->
-
-    </header>
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
