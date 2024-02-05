@@ -26,22 +26,22 @@
 
                     <ul>
                         <li>
-                            <a class="nav-link" href="exe1.php">Exe1</a>
+                        <a class="nav-link" href="ex1.php">Exe1</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="exe2.php">Exe2</
+                            <a class="nav-link" href="ex2.php">Exe2</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="exe3.php">Exe3</a>
+                            <a class="nav-link" href="ex3.php">Exe3</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="exe4.php">Exe4</a>
+                            <a class="nav-link" href="ex4.php">Exe4</a>
                         </li>
                         <li>
                             <a class="nav-link" href="Readme.md">Exe5</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="exe7.php">Exe7</a>
+                            <a class="nav-link" href="ex7.php">Exe7</a>
                         </li>
                     </ul>
                 </div>
