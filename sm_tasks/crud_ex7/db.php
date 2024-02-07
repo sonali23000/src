@@ -1,8 +1,9 @@
 <?php
-$servername = "web-dev-env-main-db-1";
-$username = "crudApp";
-$password = "mi45090a";
-$dbname = "crudApp";
+// shell.hamk.fi >>> localhost
+$servername = "localhost";
+$username = "sonali23000";
+$password = "PBNbklzo";
+$dbname = "wp_sonali23000";
 
 // create database connection
 $conn = new mysqli($servername,$username,$password,$dbname);

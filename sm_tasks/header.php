@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
             rel="stylesheet" />
@@ -38,10 +38,10 @@
                             <a class="nav-link" href="ex4.php">Exe4</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="Readme.md">Exe5</a>
+                            <a class="nav-link" href="ex5.php">Exe5</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="ex7.php">Exe7</a>
+                            <a class="nav-link" href="crud_ex7">Exe7</a>
                         </li>
                     </ul>
                 </div>
