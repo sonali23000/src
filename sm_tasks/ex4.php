@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<?php include 'header.php'; ?>
 <html>
 <head>
     <title>Voting Eligibility Check</title>
+
 </head>
 <body>
 
