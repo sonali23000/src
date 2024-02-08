@@ -38,7 +38,7 @@
                             <a class="nav-link" href="ex4.php">Exe4</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="ex5.php">Exe5</a>
+                            <a class="nav-link" href="readme.md">Exe5</a>
                         </li>
                         <li>
                             <a class="nav-link" href="crud_ex7">Exe7</a>
